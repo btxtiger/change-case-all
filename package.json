@@ -1,0 +1,37 @@
+{
+   "name": "change-case-all",
+   "version": "1.0.0",
+   "description": "All change-case methods bundled in a single module",
+   "main": "dist/index.js",
+   "author": {
+      "name": "Jonas Gnioui",
+      "email": "btxtiger@outlook.com"
+   },
+   "homepage": "https://github.com/btxtiger/change-case-all",
+   "keywords": [
+      "change-case",
+      "camel-case",
+      "pascal-case",
+      "change-case",
+      "snake-case",
+      "lowercase",
+      "uppercase",
+      "constant-case"
+   ],
+   "license": "MIT",
+   "dependencies": {
+      "change-case": "^4.1.1",
+      "is-lower-case": "^2.0.1",
+      "is-upper-case": "^2.0.1",
+      "lower-case": "^2.0.1",
+      "lower-case-first": "^2.0.1",
+      "sponge-case": "^1.0.0",
+      "swap-case": "^2.0.1",
+      "title-case": "^3.0.2",
+      "upper-case": "^2.0.1",
+      "upper-case-first": "^2.0.1"
+   },
+   "devDependencies": {
+      "prettier": "^2.0.4"
+   }
+}
