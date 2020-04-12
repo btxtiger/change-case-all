@@ -9,9 +9,12 @@ Tree shaking should still work if you use a module bundler.
 ```ts
 import { camelCase, upperCase, ... } from 'change-case-all';
 ```
- 
+
+## Documentation
+https://github.com/blakeembrey/change-case
+
 ## Links
-- **Documentation:** https://github.com/blakeembrey/change-case
+- **Original project:** https://github.com/blakeembrey/change-case 
 - **Bundled browser friendly version:** https://github.com/nitro404/change-case-bundled
 
 ## Methods
