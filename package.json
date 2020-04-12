@@ -39,6 +39,7 @@
       "upper-case-first": "^2.0.1"
    },
    "devDependencies": {
+      "npm": ">=6.13.4",
       "prettier": "^2.0.4"
    }
 }
