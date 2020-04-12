@@ -7,9 +7,36 @@ Tree shaking should still work if you use a module bundler.
 
 ## Usage
 ```ts
-import { camelCase, upperCase } from 'change-case-all';
+import { camelCase, upperCase, ... } from 'change-case-all';
 ```
  
 ## Links
 - **Documentation:** https://github.com/blakeembrey/change-case
 - **Bundled browser friendly version:** https://github.com/nitro404/change-case-bundled
+
+## Methods
+**Core**
+- camelCase
+- capitalCase
+- constantCase
+- dotCase
+- headerCase
+- noCase
+- paramCase
+- pascalCase
+- pathCase
+- sentenceCase
+- snakeCase
+
+**Extended**
+- lowerCase
+- localeLowerCase
+- lowerCaseFirst
+- spongeCase
+- swapCase
+- titleCase
+- upperCase
+- localeUpperCase
+- upperCaseFirst
+- isUpperCase
+- isLowerCase
