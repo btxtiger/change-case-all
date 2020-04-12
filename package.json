@@ -1,9 +1,10 @@
 {
    "name": "change-case-all",
-   "version": "1.0.1",
+   "version": "1.0.7",
    "description": "All change-case methods bundled in a single module",
    "license": "MIT",
    "main": "dist/index.js",
+   "types": "dist/index.d.ts",
    "author": {
       "name": "Jonas Gnioui",
       "email": "btxtiger@outlook.com"
