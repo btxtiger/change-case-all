@@ -2,12 +2,16 @@
    "name": "change-case-all",
    "version": "1.0.0",
    "description": "All change-case methods bundled in a single module",
+   "license": "MIT",
    "main": "dist/index.js",
    "author": {
       "name": "Jonas Gnioui",
       "email": "btxtiger@outlook.com"
    },
-   "homepage": "https://github.com/btxtiger/change-case-all",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/btxtiger/change-case-all"
+   },
    "keywords": [
       "change-case",
       "camel-case",
@@ -18,7 +22,6 @@
       "uppercase",
       "constant-case"
    ],
-   "license": "MIT",
    "dependencies": {
       "change-case": "^4.1.1",
       "is-lower-case": "^2.0.1",
