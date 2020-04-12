@@ -1,6 +1,6 @@
 {
    "name": "change-case-all",
-   "version": "1.0.8",
+   "version": "1.0.9",
    "description": "All change-case methods bundled in a single module",
    "license": "MIT",
    "main": "dist/index.js",
