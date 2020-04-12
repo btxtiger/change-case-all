@@ -6,6 +6,9 @@ Combined version of all [`change-case`](https://github.com/blakeembrey/change-ca
 Tree shaking should still work if you use a module bundler.
 
 ## Usage
+```shell script
+npm install --save change-case-all
+```
 ```ts
 import { camelCase, upperCase, ... } from 'change-case-all';
 ```
