@@ -4,6 +4,7 @@
       "target": "es5",
       "declaration": true,
       "outDir": "./dist",
+      "allowJs": true,
       "allowSyntheticDefaultImports": true
    },
    "include": [
