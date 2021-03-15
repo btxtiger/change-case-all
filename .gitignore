@@ -4,6 +4,7 @@
 /dist
 /tmp
 /out-tsc
+/.nyc_output
 # Only exists if Bazel was run
 /bazel-out
 

@@ -1,6 +1,6 @@
 {
    "name": "change-case-all",
-   "version": "1.0.13",
+   "version": "1.0.14",
    "description": "All change-case methods bundled in a single module",
    "license": "MIT",
    "main": "dist/index.js",
@@ -15,7 +15,9 @@
    },
    "scripts": {
       "tsc": "tsc",
-      "compile": "npm run tsc"
+      "compile": "npm run tsc",
+      "test": "ts-node node_modules/jasmine/bin/jasmine --config=jasmine.json --color",
+      "coverage": "nyc -r text -e .ts -x \"tests/*.test.ts\" npm run test"
    },
    "files": [
       "dist",
@@ -44,8 +46,13 @@
       "upper-case-first": "^2.0.2"
    },
    "devDependencies": {
+      "@types/jasmine": "^3.6.6",
+      "jasmine": "^3.6.4",
+      "jasmine-spec-reporter": "^6.0.0",
       "npm": ">=6.14.6",
+      "nyc": "^15.1.0",
       "prettier": "^2.2.1",
+      "ts-node": "^9.1.1",
       "typescript": "^4.2.3"
    }
 }
