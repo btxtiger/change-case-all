@@ -1,14 +1,14 @@
-import changeCase from 'change-case';
+import * as changeCase from 'change-case';
 
-import lowerCase1 from 'lower-case';
-import lowerCaseFirst1 from 'lower-case-first';
-import spongeCase1 from 'sponge-case';
-import swapCase1 from 'swap-case';
-import titleCase1 from 'title-case';
-import upperCase1 from 'upper-case';
-import upperCaseFirst1 from 'upper-case-first';
-import isUpperCase1 from 'is-upper-case';
-import isLowerCase1 from 'is-lower-case';
+import * as lowerCase1 from 'lower-case';
+import * as lowerCaseFirst1 from 'lower-case-first';
+import * as spongeCase1 from 'sponge-case';
+import * as swapCase1 from 'swap-case';
+import * as titleCase1 from 'title-case';
+import * as upperCase1 from 'upper-case';
+import * as upperCaseFirst1 from 'upper-case-first';
+import * as isUpperCase1 from 'is-upper-case';
+import * as isLowerCase1 from 'is-lower-case';
 
 // Core
 export const camelCase = changeCase?.camelCase;

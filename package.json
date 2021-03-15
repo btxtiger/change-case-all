@@ -13,6 +13,10 @@
       "type": "git",
       "url": "https://github.com/btxtiger/change-case-all"
    },
+   "scripts": {
+      "tsc": "tsc",
+      "compile": "npm run tsc"
+   },
    "files": [
       "dist",
       "LICENSE"
