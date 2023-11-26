@@ -45,28 +45,29 @@ import { Case } from 'change-case-all';
 
 const str = 'test string';
 
-const camel = Case.camel(str); // testString
-const capital = Case.capital(str); // Test String
-const constant = Case.constant(str); // TEST_STRING
-const dot = Case.dot(str); // test.string
-const no = Case.no(str); // test string
-const pascal = Case.pascal(str); // TestString
-const path = Case.path(str); // test/string
-const sentence = Case.sentence(str); // Test string
-const snake = Case.snake(str); // test_string
-const train = Case.train(str); // Test-String
-const kebap = Case.kebap(str); // test-string
-const sponge = Case.sponge(str); // TeSt StRiNg
-const swapCase = Case.swap(str); // TEST STRING
-const title = Case.title(str); // Test String
-const uppper = Case.upper(str); // TEST STRING
-const localeUpper = Case.localeUpper(str, 'en'); // TEST STRING
-const lower = Case.lower(str); // test string
-const localeLower = Case.localeLower(str, 'en'); // test string
-const lowerFirst = Case.lowerFirst(str); // test string
-const upperFirst = Case.upperFirst(str); // Test string
-const isUpper = Case.isUpper(str); // false
-const isLower = Case.isLower(str); // true
+camel       = Case.camel(str);               // testString
+capital     = Case.capital(str);             // Test String
+constant    = Case.constant(str);            // TEST_STRING
+dot         = Case.dot(str);                 // test.string
+no          = Case.no(str);                  // test string
+pascal      = Case.pascal(str);              // TestString
+path        = Case.path(str);                // test/string
+sentence    = Case.sentence(str);            // Test string
+snake       = Case.snake(str);               // test_string
+train       = Case.train(str);               // Test-String
+kebap       = Case.kebap(str);               // test-string
+sponge      = Case.sponge(str);              // TeSt StRiNg
+swapCase    = Case.swap(str);                // TEST STRING
+title       = Case.title(str);               // Test String
+uppper      = Case.upper(str);               // TEST STRING
+localeUpper = Case.localeUpper(str, 'en');   // TEST STRING
+lower       = Case.lower(str);               // test string
+localeLower = Case.localeLower(str, 'en');   // test string
+lowerFirst  = Case.lowerFirst(str);          // test string
+upperFirst  = Case.upperFirst(str);          // Test string
+isUpper     = Case.isUpper(str);             // false
+isLower     = Case.isLower(str);             // true
+
 ```
 
 ### Function based usage
@@ -75,26 +76,27 @@ import { camelCase, upperCase, ... } from 'change-case-all';
 
 const str = 'test string';
 
-const camel = camelCase(str); // testString
-const capital = capitalCase(str); // Test String
-const constant = constantCase(str); // TEST_STRING
-const dot = dotCase(str); // test.string
-const no = noCase(str); // test string
-const pascal = pascalCase(str); // TestString
-const path = pathCase(str); // test/string
-const sentence = sentenceCase(str); // Test string
-const snake = snakeCase(str); // test_string
-const train = trainCase(str); // Test-String
-const kebap = kebapCase(str); // test-string
-const sponge = spongeCase(str); // TeSt StRiNg
-const swapCase = swapCase(str); // TEST STRING
-const title = titleCase(str); // Test String
-const uppper = upperCase(str); // TEST STRING
-const localeUpper = localeUpperCase(str, 'en'); // TEST STRING
-const lower = lowerCase(str); // test string
-const localeLower = localeLowerCase(str, 'en'); // test string
-const lowerFirst = lowerCaseFirst(str); // test string
-const upperFirst = upperCaseFirst(str); // Test string
-const isUpper = isUpperCase(str); // false
-const isLower = isLowerCase(str); // true
+camel       = camelCase(str);               // testString
+capital     = capitalCase(str);             // Test String
+constant    = constantCase(str);            // TEST_STRING
+dot         = dotCase(str);                 // test.string
+no          = noCase(str);                  // test string
+pascal      = pascalCase(str);              // TestString
+path        = pathCase(str);                // test/string
+sentence    = sentenceCase(str);            // Test string
+snake       = snakeCase(str);               // test_string
+train       = trainCase(str);               // Test-String
+kebap       = kebapCase(str);               // test-string
+sponge      = spongeCase(str);              // TeSt StRiNg
+swapCase    = swapCase(str);                // TEST STRING
+title       = titleCase(str);               // Test String
+uppper      = upperCase(str);               // TEST STRING
+localeUpper = localeUpperCase(str, 'en');   // TEST STRING
+lower       = lowerCase(str);               // test string
+localeLower = localeLowerCase(str, 'en');   // test string
+lowerFirst  = lowerCaseFirst(str);          // test string
+upperFirst  = upperCaseFirst(str);          // Test string
+isUpper     = isUpperCase(str);             // false
+isLower     = isLowerCase(str);             // true
+
 ```
