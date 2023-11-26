@@ -1,4 +1,5 @@
 # change-case-all
+![CI](https://github.com/btxtiger/change-case-all/actions/workflows/ci.yml/badge.svg)
 [![npm](https://img.shields.io/npm/v/change-case-all.svg)](https://www.npmjs.com/package/change-case-all)
 [![npm](https://img.shields.io/npm/dm/change-case-all.svg)](https://www.npmjs.com/package/change-case-all)
 [![npm](https://img.shields.io/librariesio/release/npm/change-case-all)](https://www.npmjs.com/package/change-case-all)
