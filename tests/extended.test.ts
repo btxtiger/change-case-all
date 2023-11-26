@@ -1,4 +1,3 @@
-import { SpecReporter } from 'jasmine-spec-reporter';
 import {
    isLowerCase,
    isUpperCase,
@@ -13,8 +12,7 @@ import {
    upperCaseFirst,
 } from '../dist';
 
-// @ts-ignore
-jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: 'pretty' } }));
+import { describe, it, expect } from 'vitest';
 
 describe('The extended modules of change-case', () => {
    let expression = 'MyName-is_peter parker__and--I-amCool';
@@ -36,7 +34,7 @@ describe('The extended modules of change-case', () => {
 
    it('should spongeCase the expression', () => {
       expect(spongeCase).toBeDefined();
-      // Result varies
+      // Result varies on each run
       // expect(spongeCase(expression)).toEqual('mynAme-iS_pETEr paRkER__ANd--i-AMCool');
    });
 
@@ -67,11 +65,11 @@ describe('The extended modules of change-case', () => {
 
    it('should test expression isUpperCase', () => {
       expect(isUpperCase).toBeDefined();
-      expect(isUpperCase(expression)).toBeFalse();
+      expect(isUpperCase(expression)).toBeFalsy();
    });
 
    it('should test expression isLowerCase', () => {
       expect(isLowerCase).toBeDefined();
-      expect(isLowerCase(expression)).toBeFalse();
+      expect(isLowerCase(expression)).toBeFalsy();
    });
 });

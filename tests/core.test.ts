@@ -10,11 +10,10 @@ import {
    pathCase,
    sentenceCase,
    snakeCase,
+   kebabCase,
+   trainCase,
 } from '../dist';
-import { SpecReporter } from 'jasmine-spec-reporter';
-
-// @ts-ignore
-jasmine.getEnv().addReporter(new SpecReporter({ spec: { displayStacktrace: 'pretty' } }));
+import { describe, it, expect } from 'vitest';
 
 describe('The core modules of change-case', () => {
    let expression = 'MyName-is_peter parker__and--I-amCool';
@@ -44,6 +43,11 @@ describe('The core modules of change-case', () => {
       expect(headerCase(expression)).toEqual('My-Name-Is-Peter-Parker-And-I-Am-Cool');
    });
 
+   it('should trainCase the expression', () => {
+      expect(trainCase).toBeDefined();
+      expect(trainCase(expression)).toEqual('My-Name-Is-Peter-Parker-And-I-Am-Cool');
+   });
+
    it('should noCase the expression', () => {
       expect(noCase).toBeDefined();
       expect(noCase(expression)).toEqual('my name is peter parker and i am cool');
@@ -52,6 +56,11 @@ describe('The core modules of change-case', () => {
    it('should paramCase the expression', () => {
       expect(paramCase).toBeDefined();
       expect(paramCase(expression)).toEqual('my-name-is-peter-parker-and-i-am-cool');
+   });
+
+   it('should kebabCase the expression', () => {
+      expect(kebabCase).toBeDefined();
+      expect(kebabCase(expression)).toEqual('my-name-is-peter-parker-and-i-am-cool');
    });
 
    it('should pascalCase the expression', () => {
