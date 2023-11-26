@@ -24,7 +24,7 @@
    "scripts": {
       "build": "vite build",
       "test": "vitest run",
-      "publish": "npm run build && npm run test && npm publish"
+      "release": "npm run build && npm run test && npm publish"
    },
    "files": [
       "dist",
