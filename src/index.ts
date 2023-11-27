@@ -3,7 +3,7 @@ import * as spongeCase1 from 'sponge-case';
 import * as swapCase1 from 'swap-case';
 import * as titleCase1 from 'title-case';
 
-// Core
+// Exports
 export const camelCase = changeCase1.camelCase;
 export const capitalCase = changeCase1.capitalCase;
 export const constantCase = changeCase1.constantCase;
