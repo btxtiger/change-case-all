@@ -1,12 +1,11 @@
 # change-case-all
 
-Change case functions for all cases in TypeScript and JavaScript.
-
 ![CI](https://github.com/btxtiger/change-case-all/actions/workflows/ci.yml/badge.svg)
 [![npm](https://img.shields.io/npm/v/change-case-all.svg)](https://www.npmjs.com/package/change-case-all)
 [![npm](https://img.shields.io/npm/dm/change-case-all.svg)](https://www.npmjs.com/package/change-case-all)
 [![npm](https://img.shields.io/librariesio/release/npm/change-case-all)](https://www.npmjs.com/package/change-case-all)
 
+Change case functions for all cases in TypeScript and JavaScript.
 Combined version of all [`change-case`](https://github.com/blakeembrey/change-case) methods, so you do not need to install them separately.
 ESM and CJS bundles are included, also backwards compatible with change-case@4.1.0.
 
