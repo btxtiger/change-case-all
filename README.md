@@ -17,23 +17,33 @@ ESM and CJS bundles are included, also backwards compatible with change-case@4.1
 npm install --save change-case-all
 ```
 
-### Via class
+### Browser / ESM
 ```ts
 import { Case } from 'change-case-all';
-
 const camel = Case.camel('test string'); // testString
 const upper = Case.upper('test string'); // TEST STRING
-```
 
-### Via functions
-```ts
+
 import { camelCase, upperCase, ... } from 'change-case-all';
-
 const camel = camelCase('test string'); // testString
 const upper = upperCase('test string'); // TEST STRING
 ```
 
+### Node.js
+```ts
+const { Case } = require('change-case-all');
+const camel = Case.camel('foo-bar'); // fooBar
+const snake = Case.snake('fooBar'); // foo_bar
+
+const { camelCase, snakeCase } = require('change-case-all');
+const camel = camelCase('foo-bar'); // fooBar
+const snake = snakeCase('fooBar'); // foo_bar
+```
+
 ## Changelog
+
+### 2.1.0
+- Bundle dependencies in module to support Node.js
 
 ### 2.0.0
 

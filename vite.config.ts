@@ -21,7 +21,7 @@ export default defineConfig({
          fileName: 'index',
       },
       rollupOptions: {
-         external: ['change-case', 'sponge-case', 'swap-case', 'title-case'],
+         // external: ['change-case', 'sponge-case', 'swap-case', 'title-case'],
          output: {
             globals: {
                'change-case': 'changeCase',
